@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import libros from './libros.json';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [busqueda, setBusqueda] = useState('');
+
+  const librosFiltrados = libros.filter(libro =>
+    libro.titulo.toLowerCase().includes(busqueda.toLowerCase()) ||
+    libro.autor.toLowerCase().includes(busqueda.toLowerCase())
+  );
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+      <header className="header">
+        <div className="auth-buttons">
+          <button className="register-button">Registrar</button>
+          <button className="login-button">Iniciar Sesión</button>
+        </div>
+        <h1>Leolandia</h1>
+        <input
+          type="text"
+          className="search-bar"
+          placeholder="Buscar libros..."
+          value={busqueda}
+          onChange={e => setBusqueda(e.target.value)}
+        />
+      </header>
+      <div className="libros-lista">
+        {librosFiltrados.map((libro, index) => (
+          <div key={index} className="libro">
+            <img src={libro.portada} alt={`Portada de ${libro.titulo}`} className="libro-portada" />
+            <h2>{libro.titulo}</h2>
+            <p>Autor: {libro.autor}</p>
+            <a href={libro.enlacePDF} target="_blank" rel="noopener noreferrer" className="descargar-link">Descargar PDF</a>
+          </div>
+        ))}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;
