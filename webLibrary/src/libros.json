@@ -1,34 +1,63 @@
 [
-    {
-      "titulo": "El Principito",
-      "autor": "Antoine de Saint-Exupéry",
-      "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
-      "enlacePDF": ""
-    },
-    {
-      "titulo": "Perdido y Encontrado",
-      "autor": "Oliver Jeffers",
-      "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/68/b1689cc66b4e8a0585c0fe0abf06d377.jpg",
-      "enlacePDF": ""
-    },
-    {
-      "titulo": "Cómo atrapar una estrella",
-      "autor": "Oliver Jeffers",
-      "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfnk4i7JhTrtkyjbXk5CBLdfBylTXB4E3yxYBIiOIUfri982D7WfyXyPGC9jeKRnHb1c&usqp=CAU",
-      "enlacePDF": ""
-    },
-    {
-      "titulo": "La ovejita que vino a cenar",
-      "autor": "Stevve Smallman",
-      "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OSrwhOlMA1dTgmGlRXhGGbywoDGbfKkRDsQTDtwkwA&s",
-      "enlacePDF": ""
-    },
-    {
-      "titulo": "Hijo (Son)",
-      "autor": "Ariel Andrés Almada",
-      "portada": "https://cuentodeluz-es.imgix.net/covers/9788418302169.jpg?auto=format&w=1000",
-      "enlacePDF": ""
-    }
-    
-  ]
+  {
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Perdido y Encontrado",
+    "autor": "Oliver Jeffers",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/68/b1689cc66b4e8a0585c0fe0abf06d377.jpg",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Cómo atrapar una estrella",
+    "autor": "Oliver Jeffers",
+    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfnk4i7JhTrtkyjbXk5CBLdfBylTXB4E3yxYBIiOIUfri982D7WfyXyPGC9jeKRnHb1c&usqp=CAU",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "La ovejita que vino a cenar",
+    "autor": "Stevve Smallman",
+    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OSrwhOlMA1dTgmGlRXhGGbywoDGbfKkRDsQTDtwkwA&s",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Antigona Gonzales",
+    "autor": "Sara Uribe",
+    "portada": "https://descargarlibrosenpdf.wordpress.com/wp-content/uploads/2018/05/antigona-gonzalez-1.jpg?w=1140",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Rosario Castellanos",
+    "autor": "Sara Sanchez",
+    "portada": "https://eventos.gandhi.com.mx/wp-content/uploads/2023/05/Portada_Rosario-Castellanos-Materia-que-arde-scaled.jpg",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Variacoiones sobre el cuerpo",
+    "autor": "Michel Serres",
+    "portada": "https://descargarlibrosenpdf.wordpress.com/wp-content/uploads/2017/07/variacionessobreelcuerpo.jpg",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Muerte de la moral burguesa",
+    "autor": "Emmaniel Berl",
+    "portada": "https://descargarlibrosenpdf.wordpress.com/wp-content/uploads/2018/05/muerte-de-la-mural-burguesa.jpg",
+    "enlacePDF": ""
+  },
+  {
+    "titulo": "Hijo (Son)",
+    "autor": "Ariel Andrés Almada",
+    "portada": "https://cuentodeluz-es.imgix.net/covers/9788418302169.jpg?auto=format&w=1000",
+    "enlacePDF": ""
+  },
+  {
+  "titulo": "Antologia",
+  "autor": "Ignacio M. Altamirano",
+  "portada": "https://descargarlibrosenpdf.wordpress.com/wp-content/uploads/2018/05/altamirano-el-zarco-y-otros-cuentos_pc3a1gina_001.jpg?w=389&h=536",
+  "enlacePDF": ""
+}
+]
   
