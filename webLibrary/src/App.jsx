@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import libros from './libros.json';
+import logo from './img/Leolandia.png'; 
+import fondo from './img/fondo.png';
 import './App.css'; // Importa el archivo CSS
 
 const App = () => {
@@ -21,7 +23,9 @@ const App = () => {
           <button className="register-button">Registrar</button>
           <button className="login-button">Iniciar Sesión</button>
         </section>
-        <h1>Leolandia</h1>
+
+        <img src={logo} alt="Leolandia Logo" className="app-logo" /> 
+       
         <input 
           type="text" 
           className="search-bar" 
@@ -30,7 +34,6 @@ const App = () => {
           onChange={e => setBusqueda(e.target.value)}
         />
       </header>
-
       <p>Bienvenido a nuestra Leolandia, tu destino ideal para acceder a una amplia variedad de títulos literarios de forma gratuita. 
         Aquí, podrás encontrar desde clásicos de la literatura hasta obras contemporáneas, 
         todos disponibles para descarga inmediata.</p>
@@ -59,8 +62,21 @@ const App = () => {
           </section>
         ))}
       </section>
+
+      {/* Barra al final de la página */}
+      <footer className="footer">
+        <nav className="footer-nav">
+          <ul>
+            <li><a href="#">Cómo ayuda</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            {/* Agrega más enlaces según sea necesario */}
+          </ul>
+        </nav>
+      </footer>
     </section>
   );
 };
 
 export default App;
+
