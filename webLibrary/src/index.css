@@ -1,41 +1,47 @@
-body {
+*{
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none ;
+}
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
-.app {
-  padding:20;
-  max-width: 1200px;
+.allApp {
+  padding: 20px;
+  max-width: 1230px;
   margin: 0 auto;
- 
 }
-
-
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  border: 5px solid black;
-  border-radius: 10px;
-  padding: 30px;
-
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .app-logo {
-  max-height: 50px; /* Ajusta el tamaño de la imagen del logo según tus necesidades */
-  margin-bottom: 10px;
+  max-height: 50px;
 }
-.search-bar {
-  width: 20%;
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 16px;
-  border: 5px solid #000000;
-  border-radius: 10px;
 
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .auth-buttons {
@@ -48,11 +54,10 @@ body {
   font-size: 16px;
   cursor: pointer;
   border: none;
-  border: 5px solid black;
-  color: rgb(0, 0, 0);
-  background-color: #FFC300;
-  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: #007bff;
   border-radius: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .register-button:hover, .login-button:hover {
@@ -69,16 +74,19 @@ body {
   margin-left: 10px;
   padding: 10px;
   font-size: 16px;
-  border: 5px solid #000000;
-  background-color: #FFC300;
-  transition: background-color 0.3s ease;
+  border: 1px solid #ddd;
+  background-color: #ffc107;
   border-radius: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .categoria-select:hover {
   background-color: #e9e9e9;
 }
 
+.description{
+  padding: 30px;
+}
 .libros-lista {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -86,17 +94,17 @@ body {
 }
 
 .libro {
-  border: 3px solid #000000;
+  border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
-  border-radius: 10px;
-  background-color: #ffffff;
+  border-radius: 15px;
+  background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .libro:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .libro-portada {
@@ -104,7 +112,6 @@ body {
   height: 280px;
   object-fit: cover;
   border-radius: 10px;
-  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
 
@@ -112,10 +119,9 @@ body {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #FFC300;
-  color: rgb(0, 0, 0);
+  background-color: #007bff;
+  color: #fff;
   text-decoration: none;
-  border: 3px solid #000000;
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
@@ -125,31 +131,30 @@ body {
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #333;
   color: #fff;
-  padding: 5px 0;
+  padding: 35px 0;
   text-align: center;
-  margin: 10px;
-  
-  bottom: 0;
-  width: 100%;
+  margin-top: 20px;
 }
 
 .footer-nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer-nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .footer-nav ul li a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-nav ul li a:hover {
-  text-decoration: underline;
+  color: #ffc107;
 }

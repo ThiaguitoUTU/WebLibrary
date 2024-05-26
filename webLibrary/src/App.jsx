@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import libros from './libros.json';
 import logo from './img/Leolandia.png'; 
 import fondo from './img/fondo.png';
-import './App.css'; // Importa el archivo CSS
+import './App.css';
 
 const App = () => {
   const [busqueda, setBusqueda] = useState('');
@@ -16,8 +16,14 @@ const App = () => {
     (categoria === "Todos" || libro.categoria === categoria)
   );
 
+  let categoriaTitulo = '';
+  if (categoria !== 'Todos') {
+    categoriaTitulo = categoria;
+  }
+
   return (
     <section className="app">
+      <section className='allApp'>
       <header className="header">
         <section className="auth-buttons">
           <button className="register-button">Registrar</button>
@@ -25,7 +31,7 @@ const App = () => {
         </section>
 
         <img src={logo} alt="Leolandia Logo" className="app-logo" /> 
-       
+        
         <input 
           type="text" 
           className="search-bar" 
@@ -34,7 +40,7 @@ const App = () => {
           onChange={e => setBusqueda(e.target.value)}
         />
       </header>
-      <p>Bienvenido a nuestra Leolandia, tu destino ideal para acceder a una amplia variedad de títulos literarios de forma gratuita. 
+      <p className='description'>Bienvenido a nuestra Leolandia, tu destino ideal para acceder a una amplia variedad de títulos literarios de forma gratuita. 
         Aquí, podrás encontrar desde clásicos de la literatura hasta obras contemporáneas, 
         todos disponibles para descarga inmediata.</p>
 
@@ -52,6 +58,10 @@ const App = () => {
         </select>
       </section>
 
+      {categoriaTitulo && (
+        <h2 className="categoria-titulo">Libros: {categoriaTitulo}</h2>
+      )}
+
       <section className="libros-lista">
         {librosFiltrados.map((libro, index) => (
           <section key={index} className="libro">
@@ -63,20 +73,20 @@ const App = () => {
         ))}
       </section>
 
-      {/* Barra al final de la página */}
+      </section>
+
       <footer className="footer">
         <nav className="footer-nav">
           <ul>
             <li><a href="#">Cómo ayuda</a></li>
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Política de privacidad</a></li>
-            {/* Agrega más enlaces según sea necesario */}
           </ul>
         </nav>
       </footer>
-    </section>
+      
+    </section> 
   );
 };
 
 export default App;
-
