@@ -1,109 +1,122 @@
 [
+  
   {
-    "titulo": "El Principito",
-    "autor": "Antoine de Saint-Exupéry",
-    "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
-    "enlacePDF": "",
+    "titulo": "Satanás",
+    "autor": "Mario Mendoza",
+    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FII9c7VbVYIXeBZyTBHEgKcdnwiFLVwXIjR8_gi5ww&s",
+    "enlacePDF": "https://drive.google.com/file/d/1wcdeoq9s8LtUaIWqno_HbLyfFhhCtEiZ/view?usp=sharing",
     "categoria": "Ficción"
   },
+
   {
-    "titulo": "Perdido y Encontrado",
-    "autor": "Oliver Jeffers",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/68/b1689cc66b4e8a0585c0fe0abf06d377.jpg",
-    "enlacePDF": "",
+    "titulo": "Relato de un asesino",
+    "autor": "Mario Mendoza",
+    "portada": "https://www.planetadelibros.com/usuaris/libros/fotos/172/original/relato-de-una-asesino_9789584240002.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1FcXnvVNDXM-uWRL2C_v2il-3L0OA-4xr/view?usp=sharing",
     "categoria": "Ficción"
   },
+
   {
-    "titulo": "Cómo atrapar una estrella",
-    "autor": "Oliver Jeffers",
-    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfnk4i7JhTrtkyjbXk5CBLdfBylTXB4E3yxYBIiOIUfri982D7WfyXyPGC9jeKRnHb1c&usqp=CAU",
-    "enlacePDF": "",
+    "titulo": "Paranormal Colombia",
+    "autor": "Mario Mendoza",
+    "portada": "https://imagessl2.casadellibro.com/a/l/t0/12/9789584242112.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1q8GYSMr1_EIWOoFqEHJuszSTv7_fE5-N/view?usp=sharing",
     "categoria": "Ficción"
   },
+
   {
-    "titulo": "La ovejita que vino a cenar",
-    "autor": "Stevve Smallman",
-    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OSrwhOlMA1dTgmGlRXhGGbywoDGbfKkRDsQTDtwkwA&s",
-    "enlacePDF": "",
-    "categoria": "Infantil"
+    "titulo": "Lady Masacre",
+    "autor": "Mario Mendoza",
+    "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/8e/65/8e65e714676efeec30745c987c032c87.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1agHBcbvfPJc9Zu3cJgJJSpCzlCaCIayq/view?usp=sharing",
+    "categoria": "Ficción"
   },
+
   {
-    "titulo": "Hijo (Son)",
-    "autor": "Ariel Andrés Almada",
-    "portada": "https://cuentodeluz-es.imgix.net/covers/9788418302169.jpg?auto=format&w=1000",
-    "enlacePDF": "",
-    "categoria": "Infantil"
+    "titulo": "La Travesia del vidente",
+    "autor": "Mario Mendoza",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/f9/f2/f9f2f96dcbef40287fbee522fb110751.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1agHBcbvfPJc9Zu3cJgJJSpCzlCaCIayq/view?usp=sharing",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "La locura de nuestro tiempo",
+    "autor": "Mario Mendoza",
+    "portada": "https://www.planetadelibros.com.co/usuaris/libros/fotos/51/m_libros/portada_la-locura-de-nuestro-tiempo_mario-mendoza_202001131529.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/18MlOCYszL2FR9EJAcJZC6yuLSZmGtIAY/view?usp=sharing",
+    "categoria": "Ficción"
+  },
+
+  
+  {
+    "titulo": "La importancia de morir a tiempo",
+    "autor": "Mario Mendoza",
+    "portada": "https://i0.wp.com/www.holacultura.com/wp-content/uploads/2016/10/la-importancia-de-morir-a-tiempo2.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1Bn8MVxuiZoPH_3_5PlY0qPjIqFP9Yeqg/view?usp=sharing",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "El libro de las revelaciones",
+    "autor": "Mario Mendoza",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/9f/63/9f633795aa9caa0d1a6b9f5cfba506bf.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1MjtESyWBIudppMN3582Q3WcifwIPzkhb/view?usp=sharing",
+    "categoria": "Ficción"
+  }, 
+
+  
+  {
+    "titulo": "Diario de fin del mundo",
+    "autor": "Mario Mendoza",
+    "portada": "https://m.media-amazon.com/images/I/81p+Dv0zARL._AC_UF1000,1000_QL80_.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1RBMO-qhNEkGWXC9qLBR9JnifU_zGP1zO/view?usp=sharing",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "Apocalipsis",
+    "autor": "Mario Mendoza",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/b9/fc/b9fc5694bb085176dbfce1f2461956f7.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1RBMO-qhNEkGWXC9qLBR9JnifU_zGP1zO/view?usp=sharing",
+    "categoria": "Ficción"
   },
 
   {
     "titulo": "El Principito",
     "autor": "Antoine de Saint-Exupéry",
     "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1po14Xt2T3Y2NhOYRG_dWpmwhrlIgjic6/view?usp=sharing",
     "categoria": "Ficción"
   },
   {
     "titulo": "Perdido y Encontrado",
     "autor": "Oliver Jeffers",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/68/b1689cc66b4e8a0585c0fe0abf06d377.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1CzaERWl3zIu3b0UjdUp1dDigEprPtyXd/view?usp=sharing",
     "categoria": "Ficción"
   },
   {
     "titulo": "Cómo atrapar una estrella",
     "autor": "Oliver Jeffers",
     "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfnk4i7JhTrtkyjbXk5CBLdfBylTXB4E3yxYBIiOIUfri982D7WfyXyPGC9jeKRnHb1c&usqp=CAU",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/15q5kGajQwfseiyqmeq4FouPDMJ46FRmL/view?usp=sharing",
     "categoria": "Ficción"
   },
   {
     "titulo": "La ovejita que vino a cenar",
     "autor": "Stevve Smallman",
     "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OSrwhOlMA1dTgmGlRXhGGbywoDGbfKkRDsQTDtwkwA&s",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1CjDQvp4jrZF6YbdkLbFZ8Br6PZQaFqlD/view?usp=sharing",
     "categoria": "Infantil"
   },
   {
     "titulo": "Hijo (Son)",
     "autor": "Ariel Andrés Almada",
     "portada": "https://cuentodeluz-es.imgix.net/covers/9788418302169.jpg?auto=format&w=1000",
-    "enlacePDF": "",
-    "categoria": "Infantil"
-  },
-  {
-    "titulo": "El Principito",
-    "autor": "Antoine de Saint-Exupéry",
-    "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
-    "enlacePDF": "",
-    "categoria": "Ficción"
-  },
-  {
-    "titulo": "Perdido y Encontrado",
-    "autor": "Oliver Jeffers",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/b1/68/b1689cc66b4e8a0585c0fe0abf06d377.jpg",
-    "enlacePDF": "",
-    "categoria": "Ficción"
-  },
-  {
-    "titulo": "Cómo atrapar una estrella",
-    "autor": "Oliver Jeffers",
-    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfnk4i7JhTrtkyjbXk5CBLdfBylTXB4E3yxYBIiOIUfri982D7WfyXyPGC9jeKRnHb1c&usqp=CAU",
-    "enlacePDF": "",
-    "categoria": "Ficción"
-  },
-  {
-    "titulo": "La ovejita que vino a cenar",
-    "autor": "Stevve Smallman",
-    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OSrwhOlMA1dTgmGlRXhGGbywoDGbfKkRDsQTDtwkwA&s",
-    "enlacePDF": "",
-    "categoria": "Infantil"
-  },
-  {
-    "titulo": "Hijo (Son)",
-    "autor": "Ariel Andrés Almada",
-    "portada": "https://cuentodeluz-es.imgix.net/covers/9788418302169.jpg?auto=format&w=1000",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1vNIjLpGpXf9NdUWLVlME1biXIipabDnK/view?usp=sharing",
     "categoria": "Infantil"
   }
+
 ]
 
