@@ -83,6 +83,49 @@
   },
 
   {
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. ROWLING",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg",
+    "enlacePDF": "",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "Harry Potter y la cámara secreta",
+    "autor": "J.K. ROWLING",
+    "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/1a/1b/1a1b975ace9d300841c305826a644bea.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1QBn-F5WiZXS4d1nqWT9rEUaqnKV1hyg-/view?usp=sharing",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "Harry Potter y el prisionero de Azkaban",
+    "autor": "J.K. ROWLING",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/1a/31/1a3145c3ba83287fabdb65514b893cf6.jpg",
+    "enlacePDF": "",
+    "categoria": "Ficción"
+  },
+
+ 
+  {
+    "titulo": "Harry Potter y el cáliz de fuego",
+    "autor": "J.K. ROWLING",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/c9/bb/c9bbcbf0e26ce75e71b15921082d3dce.jpg",
+    "enlacePDF": "",
+    "categoria": "Ficción"
+  },
+
+  {
+    "titulo": "Harry Potter y la Orden del Fénix",
+    "autor": "J.K. ROWLING",
+    "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/3e/02/3e02fe3dfc57f3aaa73154fc7f0d058a.jpg",
+    "enlacePDF": "",
+    "categoria": "Ficción"
+  },
+
+
+
+  {
     "titulo": "El Principito",
     "autor": "Antoine de Saint-Exupéry",
     "portada": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
