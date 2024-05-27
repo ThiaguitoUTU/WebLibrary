@@ -24,38 +24,46 @@ const App = () => {
   return (
     <section className="app">
       <section className='allApp'>
-      <header className="header">
-        <section className="auth-buttons">
-          <button className="register-button">Registrar</button>
-          <button className="login-button">Iniciar Sesión</button>
-        </section>
+        <header className="header">
+          <section className="auth-buttons">
+            <button className="register-button">Registrar</button>
+            <button className="login-button">Iniciar Sesión</button>
+          </section>
 
-        <img src={logo} alt="Leolandia Logo" className="app-logo" /> 
-        
-        <input 
-          type="text" 
-          className="search-bar" 
-          placeholder="Buscar libros..." 
-          value={busqueda} 
-          onChange={e => setBusqueda(e.target.value)}
-        />
-      </header>
-      <p className='description'>Bienvenido a nuestra Leolandia, tu destino ideal para acceder a una amplia variedad de títulos literarios de forma gratuita. 
-        Aquí, podrás encontrar desde clásicos de la literatura hasta obras contemporáneas, 
-        todos disponibles para descarga inmediata.</p>
+          <img src={logo} alt="Leolandia Logo" className="app-logo" /> 
+          
+          <input 
+            type="text" 
+            className="search-bar" 
+            placeholder="Buscar libros..." 
+            value={busqueda} 
+            onChange={e => setBusqueda(e.target.value)}
+          />
+        </header>
+      </section>
 
-      <section className="categorias">
-        <label htmlFor="categoria-select">Escoge un género literario:</label>
-        <select 
-          id="categoria-select" 
-          className="categoria-select"
-          value={categoria} 
-          onChange={e => setCategoria(e.target.value)}
-        >
-          {categorias.map((cat, index) => (
-            <option key={index} value={cat}>{cat}</option>
-          ))}
-        </select>
+      <section className="contenedor">
+        <p className="description">
+          Bienvenido a Leolandia, tu destino ideal para acceder a una amplia variedad de títulos literarios de forma gratuita. 
+          Aquí, podrás encontrar desde clásicos de la literatura hasta obras contemporáneas, 
+          todos disponibles para descarga inmediata.
+        </p>
+        <img src={fondo} alt="fondo" className="fondo" />
+      </section>
+
+      <section className='allApp'>
+        <section className="categorias">
+          <label htmlFor="categoria-select">Escoge un género literario:</label>
+          <select 
+            id="categoria-select" 
+            className="categoria-select"
+            value={categoria} 
+            onChange={e => setCategoria(e.target.value)}
+          >
+            {categorias.map((cat, index) => (
+              <option key={index} value={cat}>{cat}</option>
+            ))}
+          </select>
       </section>
 
       {categoriaTitulo && (
