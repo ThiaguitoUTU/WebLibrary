@@ -140,6 +140,31 @@
     "categoria": "Literatura"
   },
 
+  
+  {
+    "titulo": "La vida simplemente",
+    "autor": "Oscar Castro",
+    "portada": "https://ediciones.uahurtado.cl/wp-content/uploads/La-vida-simplemente-web.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1GMweCUAIYT1DvGz2MV8ISomWUgcDoFFd/view?usp=sharing",
+    "categoria": "Literatura"
+  },
+
+  {
+    "titulo": "Los abismos",
+    "autor": "Pilar Quintana",
+    "portada": "https://storage.googleapis.com/catalogo-libros/extralarge/da0ba55b-af9f-5d99-12f4-603e45928859_imagen.PNG",
+    "enlacePDF": "https://drive.google.com/file/d/19O50E0Nw6hlaW1KpiGIjNMCBzmwXcrLd/view?usp=sharing",
+    "categoria": "Literatura"
+  },
+
+  {
+    "titulo": "La campana de cristal",
+    "autor": "Sylvia Plath",
+    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEjL_8q6KCG2hDljhKD96Zen1JkZGCN1ERg&s",
+    "enlacePDF": "https://drive.google.com/file/d/1fyQdQ4JVzKgeb16icfdGcnbwfXUbQbKI/view?usp=sharing",
+    "categoria": "Literatura"
+  },
+
 
   {
     "titulo": "El Principito",

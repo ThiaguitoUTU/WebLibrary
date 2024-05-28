@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import libros from './libros.json';
+import librosData from './libros.json';
 import logo from './img/Leolandia.png'; 
 import fondo from './img/fondo.png';
 import './App.css';
-import Login from './login/Login';
+import Login from './login/Login.jsx';
+import AddBook from './addbook/AddBook.jsx';
 
 const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showLogin, setShowLogin] = useState(false);
+    const [showAddBook, setShowAddBook] = useState(false);
+    const [libros, setLibros] = useState(librosData);
     const [busqueda, setBusqueda] = useState('');
     const [categoria, setCategoria] = useState('Todos');
 
-    const categorias = ["Todos", "Ficción", "Literatura","Infantil", "Fantasía", "Misterio" ];
+    const categorias = ["Todos", "Ficción", "Infantil", "Ciencia Ficción", "Fantasía", "Misterio", "Romance"];
 
     const librosFiltrados = libros.filter(libro => 
         (libro.titulo.toLowerCase().includes(busqueda.toLowerCase()) ||
@@ -33,8 +36,21 @@ const App = () => {
         setShowLogin(true);
     };
 
+    const handleShowAddBook = () => {
+        setShowAddBook(true);
+    };
+
+    const handleAddBook = (newBook) => {
+        setLibros([...libros, newBook]);
+        setShowAddBook(false);
+    };
+
     if (showLogin) {
         return <Login onLogin={handleLogin} />;
+    }
+
+    if (showAddBook) {
+        return <AddBook onAddBook={handleAddBook} />;
     }
 
     return (
@@ -55,6 +71,7 @@ const App = () => {
                         value={busqueda} 
                         onChange={e => setBusqueda(e.target.value)}
                     />
+                    <button className="add-book-button" onClick={handleShowAddBook}>Agregar Libro</button>
                 </header>
             </section>
 
