@@ -86,7 +86,7 @@
     "titulo": "Harry Potter y la piedra filosofal",
     "autor": "J.K. ROWLING",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1UQGiYHgomqBgHk2IC_5rax5GtmAD167z/view?usp=sharing",
     "categoria": "Ficción"
   },
 
@@ -102,7 +102,7 @@
     "titulo": "Harry Potter y el prisionero de Azkaban",
     "autor": "J.K. ROWLING",
     "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/1a/31/1a3145c3ba83287fabdb65514b893cf6.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1D2RJ8VJLphSSMdBiLqIp1mb6A5jIyqF_/view?usp=sharing",
     "categoria": "Ficción"
   },
 
@@ -111,7 +111,7 @@
     "titulo": "Harry Potter y el cáliz de fuego",
     "autor": "J.K. ROWLING",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/c9/bb/c9bbcbf0e26ce75e71b15921082d3dce.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1cf1V2aDmmf9f9Zu3r5d-F8QVaDXznT3W/view?usp=sharing",
     "categoria": "Ficción"
   },
 
@@ -119,10 +119,26 @@
     "titulo": "Harry Potter y la Orden del Fénix",
     "autor": "J.K. ROWLING",
     "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/3e/02/3e02fe3dfc57f3aaa73154fc7f0d058a.jpg",
-    "enlacePDF": "",
+    "enlacePDF": "https://drive.google.com/file/d/1Ef38Sw_4e_4CWVkFiEZU9-5ZWZ7EGMw0/view?usp=sharing",
     "categoria": "Ficción"
   },
 
+
+  {
+    "titulo": "Lo que no tiene nombre",
+    "autor": "Piedad Bonnett",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/a8/39/a839704cabb39d9be374b3639ca72e42.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1n2N8QfagErdyTu-OeZN-IoEcmbCvsQlq/view?usp=sharing",
+    "categoria": "Literatura"
+  },
+
+  {
+    "titulo": "El peligro de estar cuerda",
+    "autor": "Rosa Montero",
+    "portada": "https://www.planetadelibros.com.co/usuaris/libros/fotos/353/m_libros/352095_portada_el-peligro-de-estar-cuerda_rosa-montero_202202281246.jpg",
+    "enlacePDF": "https://drive.google.com/file/d/1n2N8QfagErdyTu-OeZN-IoEcmbCvsQlq/view?usp=sharing",
+    "categoria": "Literatura"
+  },
 
 
   {
