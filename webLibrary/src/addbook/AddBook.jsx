@@ -27,7 +27,8 @@ const AddBook = ({ onAddBook, onBackToMain }) => {
 
     return (
         <section>
-            <button className="back-button" onClick={onBackToMain}>Volver a Principal</button>
+            
+            <button className="back-button"><a href="./src\App.jsx">Volver a principal</a></button>
             <section className="add-book-container">
             <h2>Añadir un Nuevo Libro</h2>
             <form className="add-book-form" onSubmit={handleSubmit}>
