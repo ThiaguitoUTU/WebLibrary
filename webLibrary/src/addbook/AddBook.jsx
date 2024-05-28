@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './AddBook.css';
 
-const AddBook = ({ onAddBook }) => {
+const AddBook = ({ onAddBook, onBackToMain }) => {
     const [titulo, setTitulo] = useState('');
     const [autor, setAutor] = useState('');
     const [portada, setPortada] = useState('');
@@ -25,9 +26,11 @@ const AddBook = ({ onAddBook }) => {
     };
 
     return (
-        <div>
-            <h2>Add a New Book</h2>
-            <form onSubmit={handleSubmit}>
+        <section>
+            <button className="back-button" onClick={onBackToMain}>Volver a Principal</button>
+            <section className="add-book-container">
+            <h2>Añadir un Nuevo Libro</h2>
+            <form className="add-book-form" onSubmit={handleSubmit}>
                 <div>
                     <label>Título: </label>
                     <input type="text" value={titulo} onChange={(e) => setTitulo(e.target.value)} required />
@@ -48,9 +51,10 @@ const AddBook = ({ onAddBook }) => {
                     <label>Categoría: </label>
                     <input type="text" value={categoria} onChange={(e) => setCategoria(e.target.value)} required />
                 </div>
-                <button type="submit">Add Book</button>
+                <button type="submit">Añadir Libro</button>
             </form>
-        </div>
+            </section>
+        </section>
     );
 };
 
