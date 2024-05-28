@@ -14,7 +14,7 @@ const App = () => {
     const [busqueda, setBusqueda] = useState('');
     const [categoria, setCategoria] = useState('Todos');
 
-    const categorias = ["Todos", "Ficción", "Infantil", "Ciencia Ficción", "Fantasía", "Misterio", "Romance"];
+    const categorias = ["Todos", "Ficción", "Infantil", "Literatura"];
 
     const librosFiltrados = libros.filter(libro => 
         (libro.titulo.toLowerCase().includes(busqueda.toLowerCase()) ||
